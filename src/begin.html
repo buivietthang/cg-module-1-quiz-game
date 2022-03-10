@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>$Quiz Game</title>
+    <style>
+        body {
+            background-image: url("image/begin.jpg");
+            background-size: cover;
+            text-align: center;
+        }
+
+        button {
+            font-family: "Times New Roman";
+            background-color: black;
+            color: white;
+            cursor: pointer;
+            font-size: 40px;
+            border: 5px solid white;
+            border-radius: 20px;
+            padding: 20px 20px 20px 20px;
+            margin-top: 450px;
+        }
+    </style>
+</head>
+<body>
+<button id="begin" onclick="startGame()">CONTINUE</button>
+<script>
+    function startGame() {
+        location.replace("guide.html");
+    }
+</script>
+</body>
+</html>

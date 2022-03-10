@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>$Quiz Game</title>
+    <style>
+        body {
+            background-image: url("image/guide.jpg");
+            background-size: cover;
+            text-align: center;
+            font-family: "Times New Roman";
+        }
+
+        #guide h2 {
+            color: black;
+            font-size: 60px;
+            margin-top: 30px;
+        }
+
+        #guide p {
+            background-color: black;
+            color: white;
+            padding: 40px 40px 40px 40px;
+            font-size: 30px;
+            border-radius: 20px;
+            border: 5px solid white;
+            text-align: left;
+            width: 700px;
+            margin: auto;
+        }
+
+        button {
+            font-family: "Times New Roman";
+            background-color: black;
+            color: white;
+            padding: 20px 20px 20px 20px;
+            cursor: pointer;
+            font-size: 40px;
+            border-radius: 20px;
+            border: 5px solid white;
+            margin-top: 50px
+        }
+    </style>
+</head>
+<body>
+<div id="guide">
+    <h2>CÁCH CHƠI</h2>
+    <p>- Có tất cả 5 câu hỏi.
+        <br><br>
+        - Mỗi câu hỏi phải chọn đáp án đúng trong vòng 15 giây.
+        <br><br>
+        - Trả lời đúng cả 5 câu hỏi sẽ dành chiến thắng.</p>
+    <div>
+        <button id="continue" onclick="guideGame()">BẮT ĐẦU</button>
+    </div>
+</div>
+<script>
+    function guideGame() {
+        location.replace("squiz-game.html");
+    }
+</script>
+</body>
+</html>

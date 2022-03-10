@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>$Quiz Game</title>
+    <link rel="stylesheet" href="squiz-game.css">
+</head>
+<h2 id="timeLeft">
+    Time Left : <span id="countDown"></span>
+</h2>
+<body>
+<div id="display">
+    <div id="question"></div>
+    <div id="answer">
+        <button id="answer1" class="ans" onclick="checkAnswer(this.id)"></button>
+        <button id="answer2" class="ans" onclick="checkAnswer(this.id)"></button>
+        <button id="answer3" class="ans" onclick="checkAnswer(this.id)"></button>
+        <button id="answer4" class="ans" onclick="checkAnswer(this.id)"></button>
+    </div>
+</div>
+<script src="squiz-game.js"></script>
+</body>
+</html>
